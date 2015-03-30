@@ -2,7 +2,7 @@
  [
   {description, ""},
   {vsn, "0.1.0"},
-  {registered, []},
+  {registered, [revolver_sup]},
   {applications, [
                   kernel,
                   stdlib
