@@ -10,7 +10,7 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-    revolver_sup:start_link().
+    ok.
 
 stop(_State) ->
     ok.
